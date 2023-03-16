@@ -74,7 +74,7 @@ if Encrypt == 8:
 
 
 
-# في حالالمستخدم لم يدخل شي يعطيه هناك خط بلون الاحمر
+# في حال المستخدم لم يدخل شي يعطيه هناك خط بلون الاحمر
 if Encrypt > 8:
 
     print(termcolor.colored("NOT SUCCEEDED :(", 'red'))
