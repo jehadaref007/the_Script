@@ -89,3 +89,6 @@ if Encrypt < 1:
 
 
 print(termcolor.colored(" The property rights By {Jehad Mosa} ", "red",'on_white'))
+
+
+#  ALCOPRA J.M
