@@ -1,11 +1,11 @@
-# طلب مكتبت التشفير و مكتبت التلوين
+# طلب مكتبة التشفير و مكتبة التلوين
 
 '''
 md5(), sha1(), sha224(), sha256(), sha384(), sha512(), blake2b(), blake2s()
 '''
 
 import hashlib,termcolor
-# هنا لتلوين
+
 print(termcolor.colored("1 = md5",'green'      ))
 print(termcolor.colored("2 = sha1",'green'     ))
 print(termcolor.colored("3 = sha224",'green'   ))
@@ -18,7 +18,7 @@ print(termcolor.colored("8 = blake2s",'green'  ))
 # طلب من المستخدم نووع التشفير
 
 Encrypt = float(input('{^ % ^} enter your type for Encrypt : '))
-# طلب من المستخدم هو النص الذي يريد تشفيره
+#طلب من المستخدم النص تشفير 
 
 text = input("{^ & ^} enter your text for Encrypt : ")
 
@@ -74,13 +74,13 @@ if Encrypt == 8:
 
 
 
-# في حال المستخدم لم يدخل شي يعطيه هناك خط بلون الاحمر
+# في حال المستخدم لم يدخل شي يعطيه هناك خطأ بلون الاحمر
 if Encrypt > 8:
 
     print(termcolor.colored("NOT SUCCEEDED :(", 'red'))
 
     print(termcolor.colored("Pless Enert NUM (1--8) And Agen", "green"))
-# في حال المستخدم ادخل مساحة يعطيه هناك خطا بلون الاحمر
+# في حال المستخدم أدخل مساحة يعطيه هناك خطأ بلون الاحمر
 if Encrypt < 1:
 
     print(termcolor.colored("NOT SUCCEEDED :(", 'red'))
